@@ -10,7 +10,7 @@
 # Set NERBASE to the location of NER data folder
 # The data should be BIO format
 # For details, see https://www.aclweb.org/anthology/W03-0419.pdf (CoNLL-03 NER paper)
-# export NERBASE=/path/to/NER
+export NERBASE=./ner_data
 
 # Set directories to store processed training/evaluation files
 export DATA_ROOT=./data
