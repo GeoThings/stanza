@@ -10,10 +10,10 @@
 # Set NERBASE to the location of NER data folder
 # The data should be BIO format
 # For details, see https://www.aclweb.org/anthology/W03-0419.pdf (CoNLL-03 NER paper)
-export NERBASE=./ner_data
+export NERBASE=../
 
 # Set directories to store processed training/evaluation files
-export DATA_ROOT=./data
+export DATA_ROOT=../data
 export TOKENIZE_DATA_DIR=$DATA_ROOT/tokenize
 export MWT_DATA_DIR=$DATA_ROOT/mwt
 export LEMMA_DATA_DIR=$DATA_ROOT/lemma
@@ -24,4 +24,4 @@ export NER_DATA_DIR=$DATA_ROOT/ner
 export CHARLM_DATA_DIR=$DATA_ROOT/charlm
 
 # Set directories to store external word vector data
-export WORDVEC_DIR=./extern_data/word2vec
+export WORDVEC_DIR=../extern_data/word2vec
