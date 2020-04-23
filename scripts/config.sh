@@ -24,4 +24,4 @@ export NER_DATA_DIR=$DATA_ROOT/ner
 export CHARLM_DATA_DIR=$DATA_ROOT/charlm
 
 # Set directories to store external word vector data
-export WORDVEC_DIR=../extern_data/word2vec
+export WORDVEC_DIR=../word_vectors
